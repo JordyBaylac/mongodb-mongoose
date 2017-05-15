@@ -1,0 +1,19 @@
+{
+    "dbConfig": {
+        "host": "localhost",
+        "port": 27017,
+        "name": "AcademicTracker"
+    },
+    "dbConfigTest": {
+        "host": "localhost",
+        "port": 27017,
+        "name": "AcademicTracker_Test"
+    },
+    "serverConfig": {
+        "port": 8000
+    },
+    "serverConfigTest": {
+        "port": 18000
+    }
+    
+}

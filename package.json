@@ -1,0 +1,26 @@
+{
+  "name": "mongoose_tests",
+  "version": "1.0.0",
+  "description": "Studying mongodb through mongoose",
+  "main": "server.js",
+  "scripts": {
+    "debug:logs": "DEBUG=server,appconfig,routers node server",
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "author": "Jordy Baylac",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "config": "^1.25.1",
+    "debug": "^2.6.3",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.5",
+    "serve-favicon": "^2.4.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0"
+  }
+}
